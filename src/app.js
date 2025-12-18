@@ -4,7 +4,7 @@ const { errorHandler } = require("./middleware/error");
 
 const app = express();
 app.use(express.json());
-app.use(fibRouter);
+app.use("/fib", fibRouter);
 app.use(errorHandler);
 
 module.exports = { app };
