@@ -25,6 +25,7 @@ fib-api/
     fib.test.js            # APIテスト（正常系/異常系）
   package.json
 
+---
 
 # 概要
 Express で 単一のエンドポイントを提供する API です。
